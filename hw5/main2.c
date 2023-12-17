@@ -13,6 +13,6 @@ float leibnizPi(float n) {
 
 int main(void)
 {
-    printf("Pi: %f\n", leibnizPi(100000000));
+    printf("Pi: %f\n", leibnizPi(145308));
     return 0;
 }

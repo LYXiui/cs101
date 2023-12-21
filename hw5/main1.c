@@ -4,18 +4,20 @@ using namespace std;
 
 int main()
 {
-    
     int n = 7;
     int spc = n;
+    int i, j, k = n;
     for (int i = 1; i <= n; i++) 
     {
-    for (int j = spc; j > 1; j--) 
+    for (int j = 1; j <= n; j++) 
     {
-        printf(" ");
+        if (j >= k)
+            printf("%d ", i);
+        else
+            printf(" ");
     }
-    for (int j = 1; j <= i; j++) 
-    {
-        printf("%d ", i);
+    k--;
+    printf("\n");
     }
     spc--;
     printf("\n");

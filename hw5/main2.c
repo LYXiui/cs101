@@ -2,7 +2,8 @@
 
 using namespace std;
 
-float leibnizPi(float n) {
+float leibnizPi(float n) 
+{
     double pi=1.0;
     int i;
     int N;

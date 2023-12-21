@@ -6,7 +6,7 @@ int main()
 {
     int n = 7;
     int spc = n;
-    int i, j, k = n;
+    int k = n;
     for (int i = 1; i <= n; i++) 
     {
     for (int j = 1; j <= n; j++) 
@@ -19,10 +19,5 @@ int main()
     k--;
     printf("\n");
     }
-    spc--;
-    printf("\n");
-    }
-}
-
     return 0;
 }

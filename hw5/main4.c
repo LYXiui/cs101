@@ -1,4 +1,4 @@
-#include <cstdio>
+#include <stdio.h>
 
 int N(int num) {
     int thousands = (num / 1000) % 10;

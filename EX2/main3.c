@@ -6,10 +6,10 @@ int main()
 {
    int i = 3;
    if (i & 1){
-       printf("偶數");
+       printf("奇數");
    }
    else {
-       printf("奇數");
+       printf("偶數");
    }
     return 0;
 }
